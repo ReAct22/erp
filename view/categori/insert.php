@@ -7,10 +7,10 @@
     <form action="" method="post">
         <div class="row">
             <div class="col-sm-6 col-xl-6 col-6 p-2">
-                <input type="text" class="form-control" placeholder="Kode Kategori" name="kode" value="<?php echo $kode ?>">
+                <input type="text" class="form-control" id="kodecategory" placeholder="Kode Kategori" name="kode" value="<?php echo $kode ?>">
             </div>
             <div class="col-sm-6 col-xl-6 col-6 p-2">
-                <input type="text" class="form-control" placeholder="Nama Kategori" name="nama">
+                <input type="text" class="form-control" id="namacategory" placeholder="Nama Kategori" name="nama">
             </div>
         </div>
         <div class="row ">
